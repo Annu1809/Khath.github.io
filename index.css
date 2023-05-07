@@ -1,0 +1,71 @@
+body{
+    background-image:url("Hold2.jfif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    background-color: black;
+    color: floralwhite;    
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;    
+    border: ridge floralwhite;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#container{
+    margin-top: 20px;
+    /* border:solid black; */
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: khaki;
+    border-style: dashed;
+    height:60%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+p{
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: cursive;
+    
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: floralwhite;
+    width: 80px;
+    border-radius: 5px;
+    margin-left:auto;
+    margin-right: auto;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(27, 25, 25);
+}
+#name{
+    color: red;
+    text-align: center;
+    font-size:0.5cm;
+}
+#band{
+ background-image: url("postal\ 2.png");
+ height: 5px;
+}
